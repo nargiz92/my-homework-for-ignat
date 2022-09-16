@@ -1,0 +1,35 @@
+.navWrapper {
+    display: flex;
+    align-items: center;
+    transform: translateX(-86%);
+    transition: 1s;
+    width: max-content;
+
+}
+
+.navWrapper:hover {
+    transform: translateX(0);
+}
+
+.navShow {
+    transform: translateX(0);
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+
+li + li {
+    margin-left: 20px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #f08080;
+    border-radius: 50%;
+    margin-left: 20px;
+}
