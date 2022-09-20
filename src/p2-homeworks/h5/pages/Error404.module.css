@@ -1,0 +1,13 @@
+
+
+.error {
+    background-image: url('https://th.bing.com/th/id/OIP.b3KhL3BuZHXT9dFErOO5hgHaHa?pid=ImgDet&rs=1');
+    width: 100%;
+    height: 100%;
+display: flex;
+
+}
+.errorText{
+    display: flex;
+    justify-content: center;
+}
